@@ -1,8 +1,6 @@
 ###PLACE ME AT THE TOP OF YOUR CODE### (this function can not be imported as it requires the __file__ var of the specific file it is used in)
 import sys
 import os
-from pathlib import Path
-import inspect
 
 sys.trackbacklimit=0
 
@@ -35,9 +33,9 @@ def gotoconfig(f):
     CONFIG_COMPLETE = True
     newfolder = os.path.dirname(os.path.abspath(CONFIG__FILE__VAR))
     sys.path.insert(1, newfolder)
-    print(CONFIG__FILE__VAR, "correct")
-    goto(1)
+    #print(CONFIG__FILE__VAR, "correct")
+    goto(1) # not this file lol
     raise SystemExit
 
 if __name__ == "__main__":
-    raise Exception("Please import * from goto")
+    raise Exception("Please import goto")

@@ -1,0 +1,8 @@
+README.md
+setup.py
+goto_plus/__init__.py
+goto_plus/goto.py
+goto_plus.egg-info/PKG-INFO
+goto_plus.egg-info/SOURCES.txt
+goto_plus.egg-info/dependency_links.txt
+goto_plus.egg-info/top_level.txt
